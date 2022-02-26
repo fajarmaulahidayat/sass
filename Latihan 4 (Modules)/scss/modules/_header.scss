@@ -1,0 +1,12 @@
+.header ul {
+    @include inline-list();
+
+    li {
+        background-color: indigo;
+        padding: 0.7em;
+
+        a {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,EAAE,CAAC;EACC,KAAK,EAHK,MAAM;EAIhB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,4BAA4B;EACzC,UAAU,EAAE,MAAM;CACrB;;AAsDD,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,wBAA2B;CACrC",
+    "sources": [
+        "../Latihan 6 (Built-in Modules)/scss/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

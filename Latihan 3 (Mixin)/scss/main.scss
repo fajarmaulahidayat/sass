@@ -1,0 +1,73 @@
+.header ul,
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ul li,
+.footer ul li {
+    display: inline-block;
+}
+
+// Mixin - Simple Mixin
+@mixin inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+}
+
+.header ul {
+    @include inline-list();
+
+    li {
+        background-color: black;
+        padding: 0.7em;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+.footer ul {
+    @include inline-list();
+
+    li {
+        padding: 0.4em;
+        background-color: lightgrey;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+// Argumen pada Mixin
+// parameter default row
+@mixin flex-box($direction: row, $space:center) {
+    display: flex;
+    justify-content: $space;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+.container {
+    @include flex-box(row-reverse, space-evenly);
+    width: 600px;
+    height: 400px;
+    background-color: #eaeaea;
+
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: forestgreen;
+        text-align: center;
+        line-height: 60px;
+    }
+}

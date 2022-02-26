@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,IAAI,CAAJ,eAAI;AACJ,IAAI,CAAJ,gBAAI;AACJ,IAAI,CAAJ,mBAAI;AACJ,IAAI,CAAJ,gBAAI",
+    "sources": [
+        "../Latihan 4 (Modules)/scss/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

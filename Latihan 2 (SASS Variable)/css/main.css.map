@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAkDA,AAAA,EAAE,CAAC;EACC,KAAK,EAJM,KAAK;CAKnB",
+    "sources": [
+        "../Latihan 2 (SASS Variable)/sass/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
